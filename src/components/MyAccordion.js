@@ -9,7 +9,6 @@ import {
 
 import 'react-accessible-accordion/dist/fancy-example.css';
 const MyAccordion = () => {
-    const d = "";
   return (
     <>
         <div className='text-center mt-3'>
@@ -41,10 +40,6 @@ const MyAccordion = () => {
                 </AccordionItemPanel>
             </AccordionItem>
         </Accordion>
-
-        <p style={{
-            display:`${d}`
-        }}>Hello</p>
     </>
   )
 }

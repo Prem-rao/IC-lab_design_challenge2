@@ -3,6 +3,8 @@ import NavBar from './components/NavBar'
 import Carousel from "./components/Carousel";
 import MyAccordion from "./components/MyAccordion";
 import Button from "./components/Button";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -12,8 +14,9 @@ function App() {
           <Route path="/" element={<Carousel/>}/>
           <Route path="/accordion" element={<MyAccordion/>}/>
           <Route path="/button" element={<Button/>}/>
-          <Route path="/card"/>
+          <Route path="/card" element={<Card/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

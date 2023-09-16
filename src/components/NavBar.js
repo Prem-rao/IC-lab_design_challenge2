@@ -10,7 +10,7 @@ const NavBar = () => {
             <li className='me-3 li-item'><Link to={'/'} className='text-decoration-none text-white p-2'>Carousel</Link></li>
             <li className='me-3 li-item'><Link to={'/accordion'} className='text-decoration-none text-white'>Accordion</Link></li>
             <li className='me-3 li-item'><Link to={'/button'} className='text-decoration-none text-white'>Button</Link></li>
-            <li className='me-3 li-item'><Link to={'/'} className='text-decoration-none text-white'>Card</Link></li>
+            <li className='me-3 li-item'><Link to={'/card'} className='text-decoration-none text-white'>Card</Link></li>
         </ul>
       </nav>
     </div>
